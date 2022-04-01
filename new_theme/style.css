@@ -1,0 +1,112 @@
+/*
+Theme Name: new_theme
+Version: 1.0
+Author: Elodie
+Author URI: http://monsite.com
+Text Domain: text-domain
+Domain Path: /lang
+Description: Mon thème WordPress
+*/
+.banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 50vh;
+}
+.banner h1 {
+    font-size: 20vh;
+    color: rgb(255, 255, 255);
+}
+
+#menu-menu-navigation ,#menu-menu-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(82, 0, 0);
+    list-style: none;
+    text-decoration: none;
+    padding: 1vh;
+}
+#menu-menu-navigation a ,#menu-menu-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-img-top img {
+    width: 18vw ;
+    border-radius: 2rem;
+}
+.list-group-item a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: royalblue;
+}
+.mini-posts .image img {
+    width: 10vw;
+    height: 20vh;
+    border-radius: 5rem;
+}
+.img-single  {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 50vh;
+}
+div .comment {
+     list-style: none;
+     border-bottom: 1px solid black ;
+     padding-bottom: 1vh;
+     padding-top: 1vh;
+}
+
+.sidebar-left {
+    background-color: rgba(82, 0, 0, 0.678);
+}
+
+.sidebar-left h1 {
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.sidebar-left ul li {
+    list-style: none;
+}
+.sidebar-left a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.sidebar-left aside {
+  margin-bottom:  5vh;
+  padding-bottom: 5vh;
+
+  border-bottom: 1px solid white ;
+}
+
+.posts h1 , .posts h3 ,h5 ,h3{
+    color:rgba(82, 0, 0, 0.678);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+article h2  {
+    background-color:rgba(82, 0, 0, 0.678); 
+    color: white;
+    padding: 1vh;
+    text-align: center;
+}
+ .posts a {
+     text-decoration: none;
+     color: rgba(82, 0, 0, 0.678);
+     text-transform: capitalize;
+ }
+
+ .liste-commentaire {
+     background-color: rgba(82, 0, 0, 0.678);
+ }
+ .liste-commentaire li a{
+   text-decoration: none;
+   color: white;
+}
